@@ -1,0 +1,124 @@
+.main{
+    
+    height: 600px;
+    width: 1200px;
+    margin-left: 350px;
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column; 
+    flex-wrap: wrap;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+#l{
+ color: rgb(37, 113, 185);
+ padding-top: 130px;
+ padding-left: 200px;
+ font: bold;
+ font-size: 50px;
+ margin-bottom: 4px;
+}
+#am{
+   margin-top: 0px;
+   padding-left: 200px;
+   font-size: larger;
+   margin-bottom: 0px;
+   display: flex;
+  
+}
+#a{
+    margin-top: 0px;
+    padding-left: 200px;
+   font-size: larger;
+   display: inline-block;
+   
+  
+}
+.inj{
+    border: 2px solid black;
+    margin-left: 50px;
+    margin-top: 100px;
+    /* display: inline-block; */
+    width: 400px;
+    height: 350px;
+    background-color:white;
+    border-radius: 8px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+.l111{
+    display: inline-block;
+    display: flex;
+
+}.email{
+    size: 20px;
+
+}
+.pas1{
+    height: 50px;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+.pas{
+    height: 50px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 10px;
+
+}
+#b{
+    height: 50px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 20px;
+    margin-right: 10px;
+    width: 350px;
+    background-color: rgb(37, 113, 185);
+    color: rgb(223, 226, 228);
+    border-radius: 10px;
+    cursor: pointer;
+    
+}
+#b1{
+    color: rgb(37, 113, 185);
+    margin-left: 100px;
+    font-size: larger;
+    cursor: pointer;
+}
+hr{
+    color: black;
+    background-color: black;
+    margin-left:20px ;
+    margin-right: 25px;
+}
+#b2{
+    height: 50px;
+    margin-bottom: 8px;
+    margin-top: 8px;
+    margin-left: 90px;
+    margin-right: 50px;
+    width: 200px;
+    background-color: rgb(62, 217, 54);
+    border-radius: 10px;
+    color: rgb(236, 233, 230);
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+#b:hover{
+    opacity: 0.6;
+}
+#next{
+    font-size: large;
+    margin-left: 90px;
+    margin-top: 10px;
+}
+.abc{
+    font-family: SFProText-Semibold, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
