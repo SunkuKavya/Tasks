@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+    const calculator=(a,b,op)=>{
+        switch(op)
+        {
+        case '+':
+           return a+b;
+        case '-':
+            return a-b;
+        case '*':
+            return a*b;
+        case '/':
+            return a/b;
+        default:
+            return "Invalid Operator";
+        }
+    }
+    const a=parseFloat(prompt("enter a value"))
+    const b=parseFloat(prompt("enter b value"))
+    const op=prompt("enter operator(+,-,*,/,=)")
+    const result=calculator(a,b,op);
+    console.log(result);
+    </script>
+</body>
+</html>
